@@ -83,10 +83,17 @@
             </dependency>
 
             <!-- dubbox -->
+            <!--<dependency>-->
+                <!--<groupId>com.alibaba</groupId>-->
+                <!--<artifactId>dubbo</artifactId>-->
+                <!--<version>${dubbo.version}</version>-->
+            <!--</dependency>-->
             <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>dubbo</artifactId>
+                <groupId>dangdangdotcom</groupId>
+                <artifactId>dubbox</artifactId>
                 <version>${dubbo.version}</version>
+                <scope>system</scope>
+                <systemPath>${project.basedir}/lib/dubbo-2.8.4.jar</systemPath>
             </dependency>
 
             <!-- zookeeper start -->

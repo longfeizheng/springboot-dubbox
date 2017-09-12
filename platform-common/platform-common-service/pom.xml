@@ -40,6 +40,8 @@
                     <groupId>com.google.guava</groupId>
                 </exclusion>
             </exclusions>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../../lib/dubbo-2.8.4.jar</systemPath>
         </dependency>
 
         <!-- zookeeper start -->
