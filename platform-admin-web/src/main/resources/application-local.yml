@@ -31,5 +31,5 @@ security:
 
 upload:
   #Disk upload
-  work-folder-name: /Users/zhangxd/files #文件存储路径
+  work-folder-name: D:/upload #文件存储路径
   access-url: http://127.0.0.1:8090 #文件访问地址，可使用反向代理

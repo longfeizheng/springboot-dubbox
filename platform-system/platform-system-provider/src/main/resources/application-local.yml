@@ -4,7 +4,7 @@ spring:
     write:
       url: jdbc:mysql://127.0.0.1:3306/platform?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
       username: root
-      password: root
+      password: admin
       driver-class-name: com.mysql.jdbc.Driver
       max-active: 20
       initial-size: 1
@@ -25,7 +25,7 @@ spring:
     read:
       url: jdbc:mysql://127.0.0.1:3306/platform?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
       username: root
-      password: root
+      password: admin
       driver-class-name: com.mysql.jdbc.Driver
       max-active: 20
       initial-size: 1
@@ -58,8 +58,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: admin
-    password: admin
+    username: guest
+    password: guest
     virtualHost: /
   mail:
     host: xxx
